@@ -1,11 +1,34 @@
+%% * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+%
+%   Derivations in High School Physics Chapter One: Mechanics
+%
+%   Derivation of concepts in mechanics relavent to physics competitions
+%   Author: Justin Ely
+%   Email: justinyely@gmail.com
+%   
+%% * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
 \chapter{Mechanics}\label{cap2}
 
-% \begin{adjustwidth}{2.5cm}{1cm}
-% \small This Chapter explains how to include Figures, Tables, and Equations in a paper.
-% \end{adjustwidth}
+%% * * * * * * * * * * * * * * * * 
+%
+%   1.1: Kinematics
+%
+%   Includes: 
+%
+%   Kinematics Equations
+%   Range Formula
+%   Trajectory Equation
+%
+%% * * * * * * * * * * * * * * * * 
 
 \section{Kinematics}
-%Kinematics Equations
+
+%% * * * * * * * *
+%
+%   1.1.1: Kinematics Equations
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} The Kinematics Equations}
 These five equations, known collectively as the "big five," describe all kinematic motion with constant acceleration. Calculus is often employed to derive the equations, but an algebraic derivation is provided here since these equations are required for AP Physics 1. 
 
@@ -54,7 +77,11 @@ v_f^2 - v_i^2 = 2a\Delta x \label{kin3} \\
 $\bigstar$
 
 
-%Range Equation
+%% * * * * * * * *
+%
+%   1.1.2: Range Equation
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} The Range Equation}
 
 \noindent The range equation provides us with a way to quickly calculate the range of a projectile when launched at a certain angle $\theta$ and a certain speed $v_0$ on a flat surface.
@@ -71,7 +98,12 @@ t_{total} = 2t_{up} = 2\cdot \frac{v_0 \sin{\theta}}{g}
 \end{align}
 $\bigstar$
 
-%Advanced Range Equation
+
+%% * * * * * * * *
+%
+%   1.1.3: Trajectory Equation
+%
+%% * * * * * * * *
 \subsection{\color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} The Projectile Trajectory Equation}
 \noindent All trajectories of objects in projectile motion are parabolas. Sometimes, it is useful to know the equation of these trajectories, as they can give us valuable insight into the maximum range of a projectile or the envelope of safety for a projectile (we will go over the former of these examples since the uses of this equation are not as immediately apparent as other equations derived here)\footnote{Although not obvious, the use of this technique has been featured multiple times on physics competitions and thus is important.}.
 
@@ -104,8 +136,29 @@ $\bigstar$
 \noindent due to the fact that the discriminant is zero. If we set $H=0$ in eq. 1.18 and 1.19, we get $R_{max} = v_0^2/g$ and $\theta_{max} = 45^{\circ}$ as predicted in eq. 1.13 $\bigstar$
 
 \clearpage
+
+%% * * * * * * * * * * * * * * * * 
+%
+%   1.2: Dynamics
+%
+%   Includes: 
+%
+%   F=ma For Systems
+%   F = dp/dt
+%   Centripetal Acceleration
+%   Accelerated Reference Frames
+%   Reduced Mass Approach
+%   Rubber Bands
+%
+%% * * * * * * * * * * * * * * * * 
+
 \section{Dynamics}
-%F=ma
+
+%% * * * * * * * *
+%
+%   1.2.1: F=ma For Systems
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Extension of $F=ma$}
 This rather short section concerns the full extended Newton's second law. It adds another layer of nuance that is important to note while considering Newtonian Mechanics.
 
@@ -126,7 +179,11 @@ This rather short section concerns the full extended Newton's second law. It add
 
 \noindent This equation states that the net force external to any system (rigid or non-rigid) equals the total mass of the system multiplied by the acceleration of the center of mass of the system. A lot of the time, it will be simply written as $F=ma$, but it is important to remember the full form of the equation $\bigstar$
 
-%F=dp/dt
+%% * * * * * * * *
+%
+%   1.2.2: F=dp/dt
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} $F=dp/dt$}
 \noindent This section concerns the definition of force as the rate of change of momentum. The concept is described in three ways, and each section is marked with the appropriate color to denote its nuance.
 
@@ -157,7 +214,12 @@ This rather short section concerns the full extended Newton's second law. It add
 \noindent We get this equation by using $F=dp/dt$ on the equation for relativistic momentum. The significance of this equation is the fact that $F=ma$ is an approximation for small velocities and is not a fundamental "law"  $\bigstar$
 
 % \noindent Classically, we define a Newton (\textbf{N}) as the force required to accelerate a 1 \textbf{kg} mass at an acceleration of 1 $\textbf{m/s}^2$. However, we see that at velocities close to the speed of light, forces much greater than 1 \textbf{N} are required to accelerate a 1 \textbf{kg} mass at 1 $\textbf{m/s}^2$. Thus, we instead must define a Newton as the force required to change the momentum of a particle by 1 $\textbf{kg}\cdot \textbf{m/s}$ in 1 second\footnote{Of course, this just shifts the definition of a Newton to the units of momentum, but we cover that in ---}
-%Centripetal Acceleration
+
+%% * * * * * * * *
+%
+%   1.2.3: Centripetal Acceleration
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Centripetal Acceleration}
 When an object moves in a circle at a constant velocity, it experiences an inward acceleration due the direction of the velocity vector changing with time. In this section, we derive this acceleration known as the centripetal acceleration.
 
@@ -248,7 +310,11 @@ label("O", o, S);
 \end{gather}
 \noindent Which is the magnitude of the centripetal acceleration of an object moving in a circle $\bigstar$
 
-%Accelerated Reference Frames
+%% * * * * * * * *
+%
+%   1.2.4: Accelerated Reference Frames
+%
+%% * * * * * * * *
 \subsection{\color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Accelerated Reference Frames}
 An inertial reference frame is defined as one in which Newton's laws hold. Thus, we can use Newton's laws to describe motion in all inertial reference frames. However, we sometimes want to describe motion in non-inertial reference frames, such as an accelerating car or a spinning merry-go-round. To describe motion in such frames, we need to make a small modification to Newton's description of motion using forces.
 
@@ -301,6 +367,11 @@ An inertial reference frame is defined as one in which Newton's laws hold. Thus,
 \end{figure}
 \noindent Thus, we see that in the reference frame of the box, B has a leftward acceleration of magnitude $a$. By Newton's second law, it must have a force applied on it with magnitude $a$ times its mass. The direction should be in the same direction as its acceleration, i.e. to the left. Hence, in the non-inertial reference frame of the box, particle B experiences a "force" opposite to the direction of the acceleration of the reference frame. This sort of force which exists in non-inertial reference frames is called a $fictitious$ force because it doesn't exist in some inertial frames. However, it is very much a real force in non-inertial frames. For example, astronauts on the ISS are still well within the Earth's gravitational pull, but experience no net force (weightlessness) due to the fictitious centrifugal force from their orbit balancing gravity out perfectly $\bigstar$
 
+%% * * * * * * * *
+%
+%   1.2.5: Reduced Mass Approach
+%
+%% * * * * * * * *
 \subsection{\color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Reduced Mass Approach}
 In this section, we consider a method to approach a two-body system by reducing it to a singly body problem. Start by considering two bodies of masses $m_1$ and $m_2$ which interact via some interaction force $F$. The accelerations of each body are
 \begin{align*}
@@ -318,6 +389,11 @@ In this section, we consider a method to approach a two-body system by reducing 
 \end{align}
 \noindent where $\mu = \left( \frac{1}{m_1} + \frac{1}{m_2} \right)^{-1} = \frac{m_1m_2}{m_1 + m_2}$ and is known as the reduced mass. In other words, if we transform into the reference frame of one of the bodies in a two-body system, the mass of the other body effectively becomes the reduced mass, and its motion is defined by Newton's second law $\bigstar$
 
+%% * * * * * * * *
+%
+%   1.2.1: Rubber Bands
+%
+%% * * * * * * * *
 \subsection{\color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Rubber bands}
 \noindent Sometimes, physics Olympiads feature problems with rubber bands, so it's important to know how to approach such problems. This section addresses a relation between the different forces in a rubber band, as well as the general method to approach rubber band problems. First, consider a stretched rubber band with tension $T$ being held in a stretched position by a radially outward force $F_c$. To approach any rubber band problem, consider a small angle $d\theta$ that subtends a small arc and analyze the forces on it. In this case, cutting a small arc and drawing forces on it (as well as a few guidelines) yields the following diagram
 \begin{figure} [h]
@@ -363,8 +439,30 @@ In this section, we consider a method to approach a two-body system by reducing 
 $\bigstar$
 
 \clearpage
+
+%% * * * * * * * * * * * * * * * * 
+%
+%   1.3: Energy & Momentum
+%
+%   Includes: 
+%
+%   Conservative Forces 
+%   Energy Balance 
+%   Conservation of Momentum
+%   Relative Velocity Approach
+%   Kinetic Energy of Multi-Body System
+%   Kinetic Energy of a Two Body System
+%   Equations of Motion From Energy
+%
+%% * * * * * * * * * * * * * * * * 
+
 \section{Energy and Momentum}
-%Conservative Forces
+
+%% * * * * * * * *
+%
+%   1.3.1: Conservative Forces
+%
+%% * * * * * * * *
 \subsection{\color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Conservative Forces} \label{1.3.1}
 This short section shows that defining a conservative force as a derivative of a scalar potential and a force which has a circulation of zero are equivalent. 
 
@@ -390,7 +488,12 @@ Lastly, substituting our definition of a conservative force, we have
 \end{equation}
 Eq. 1.35 the other definition of a conervative force, and thus the two definitions are equivalent $\bigstar$
 
-%Energy Balance
+
+%% * * * * * * * *
+%
+%   1.3.2: Energy Balance
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{RoyalBlue} $\blacktriangleright$ \color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Energy Balance \& Conservation of energy}
 To derive the Work-Energy theorem, we start with the definition of work
 \begin{equation}
@@ -423,7 +526,12 @@ Where $U_c$ is any sort of potential energy due to a conservative force (gravity
 \end{equation}
 Where any internal heat has been accounted for as changes in the thermal energy of the system $\bigstar$
 
-%Conservation of Momentum
+
+%% * * * * * * * *
+%
+%   1.3.3: Conservation of Momentum
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Conservation of Momentum}
 Momentum for a system of particles is conserved when there are no external net forces acting on the system. To derive this fact, we start by considering a system of two particles that interact via some interaction force for a time $\Delta t$.
 %figure with 2 particles
@@ -470,7 +578,12 @@ Momentum for a system of particles is conserved when there are no external net f
 \end{equation}
 \noindent Note that we assumed that there were no external net forces to the system. If there were, the total change in momentum of each particle would not be equal in magnitude and thus momentum would not be conserved $\bigstar$.
 
-%Relative Velocity Approach
+
+%% * * * * * * * *
+%
+%   1.3.4: Relative Velocity Approach
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Relative Velocity for Elastic Collisions}
 When solving for the velocities in an elastic collision, we use two conservation laws: conservation of momentum, and since its an elastic collision, conservation of kinetic energy. These two conservation laws look like the following
 \begin{gather}
@@ -488,7 +601,12 @@ Because of the kinetic energy conservation equation, this system often gives a q
 \end{equation}
 \noindent We can use this equation along with the conservation of momentum equation (1.46) to quickly solve for velocities in an elastic collision $\bigstar$
 
-%Kinetic Energy of a multi-body system
+
+%% * * * * * * * *
+%
+%   1.3.5: Total Kinetic Energy of Multi-Body System
+%
+%% * * * * * * * *
 \subsection{\color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Total Kinetic Energy of Any System} \label{1.3.5}
 This section a derivation for a frequently used form of the total kinetic energy of a system by separating the kinetic energy of the system into energy due to the center of mass and energy due to relative motion. Note that the section title indicates that Physics C students should review this concept, which I deem true because the topics here involve concepts used in rotational kinetic energy and the parallel-axis theorem. However, one could very well pass Physics C without the extra nuance provided by this proof\footnote{F=ma and USAPhO students, though, should stay!}.
 
@@ -553,7 +671,11 @@ This section a derivation for a frequently used form of the total kinetic energy
 \end{equation*}
 \noindent Where $v_{icm}$ is the relative velocity of the $i^{th}$ particle to the center of mass $\bigstar$
 
-% 1/2muvrel^2
+%% * * * * * * * *
+%
+%   1.3.6: Kinetic Energy of a Two-Body System
+%
+%% * * * * * * * *
 \subsection{\color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Total Kinetic Energy of a Two-Body System} \label{1.3.6}
 In this section, we use the result from \ref{1.3.5} to derive an expression for the total energy of a two-body system. We specifically consider this system since it is the one under consideration for all two-body collisions.
 
@@ -585,7 +707,11 @@ In this section, we use the result from \ref{1.3.5} to derive an expression for 
 \end{equation}
 \noindent This expression also provides an easy way to find the energy lost in a perfectly-inelastic collision, since $v_{rel}$ after the collision is zero. Thus, the total energy lost in such a collision is $\frac12 \mu v_{rel}^2$ $\bigstar$
 
-%Eqn of motion from energy
+%% * * * * * * * *
+%
+%   1.3.7: Obtaining Equations of Motion from Energy
+%
+%% * * * * * * * *
 \subsection{\color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Obtaining Equations of Motion Using Energy}
 $F=ma$ gives us an important relation between the force applied on an object and its acceleration. If we can write out $F=ma$ for every object in a system, we can solve for the total movement of the system, or its equations of motion. However, finding and writing forces for every object can often be extremely tedious, which is the exact reason why conserved quantities like energy and momentum are so important. In particular, we can sometimes use energy to find the equation of motion of certain systems if a forces approach is not straightforward. \\
 \\
@@ -605,8 +731,29 @@ $F=ma$ gives us an important relation between the force applied on an object and
 \noindent What the above expression implies is that if we have a non-trivial system that only depends on a single coordinate, we can write the total energy and take a time derivative to find the equation of motion of the system. This process can oftentimes be a lot easier that writing out forces, such as a system of water oscillating in a U-tube, or a complicated spring oscillator.
 
 \clearpage
+
+%% * * * * * * * * * * * * * * * * 
+%
+%   1.4: Rotation
+%
+%   Includes: 
+%
+%   Constant Rotational Quantities
+%   Rotational KE
+%   Parallel Axis Theorem
+%   Common Moment of Inertias
+%   Perpendicular Axis Theorem
+%
+%% * * * * * * * * * * * * * * * * 
+
 \section{Rotation}
-%Constant Rotational Quantities
+
+
+%% * * * * * * * *
+%
+%   1.4.1: Constant Rotational Quantities
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Angular Velocity Is the Same About Any Pivot}
 Consider a rigid body rotating freely with angular velocity $\omeg$ about an arbitrary point on the body. Then, consider another point a distance $r$ away from the point of rotation. By the definition of rigid body rotation, this point has a speed $r\omeg$ in the direction shown in the diagram.
 \begin{figure}[!h]
@@ -639,7 +786,11 @@ Consider a rigid body rotating freely with angular velocity $\omeg$ about an arb
 \end{figure}
 
 
-%Rotational KE
+%% * * * * * * * *
+%
+%   1.4.2: Rotational KE
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Kinetic Energy of Rigid Bodies (Rotational KE)}
 \color{OrangeRed} $\blacktriangleright$ \color{black} The following equation for rotational kinetic energy is required for AP Physics 1, but the derivation is not required. However, nuance from the derivation could be useful.
 \begin{equation}
@@ -799,7 +950,11 @@ Consider a rigid body rotating freely with angular velocity $\omeg$ about an arb
 
 \noindent To summarize, the total kinetic energy of a freely moving rigid body is comprised of two parts: the kinetic energy due to translation of the center of mass $\frac12 M v_{cm}^2$ and the kinetic energy due rotation about the center of mass $\frac12 I_{cm} \omega^2$. For a rigid body rotating about a fixed pivot, the total kinetic energy is simply $\frac12 I_i \omeg^2$ where $I_i$ is the moment of inertia about the fixed pivot $\bigstar$
 
-%Parallel Axis Theorem
+%% * * * * * * * *
+%
+%   1.4.3: Parallel Axis Theorem
+%
+%% * * * * * * * *
 \subsection{\color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Parallel Axis Theorem}
 The Parallel Axis Theorem provides a way to find the moment of inertia of a rigid body about an axis parallel to an axis that passes through the center of mass. First, consider the following rigid body with moment of inertia $I_{cm}$ about the center of mass. Further consider that we wish to find the moment of inertia about the axis perpendicular to the page and passing through point $O$.
 
@@ -842,7 +997,11 @@ The Parallel Axis Theorem provides a way to find the moment of inertia of a rigi
 \end{equation}
 $\bigstar$
 
-%Moment of Inertias
+%% * * * * * * * *
+%
+%   1.4.4: Common Moment of Inertias
+%
+%% * * * * * * * *
 \subsection{\color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Common Moment of Inertias} \label{1.4.3}
 There are some common moment of inertias that should be memorized to increase speed while solving problems. However, it is also important to have the mathematical flexibility to be able to derive these expressions, especially for Physics C and above. All of these moment of inertias will be taken about an axis which passes through the center of mass\footnote{Which is also the geometrical center since we will only consider uniform mass here.}, although one can find the moment of inertia about other axes with clever use of geometry paired with parallel and perpendicular axis theorem. To derive all of these, we will use the integral definition of moment of inertia, that is
 \begin{equation}
@@ -952,6 +1111,13 @@ There are some common moment of inertias that should be memorized to increase sp
     I &= 2\frac{M}{R^3} \int_0^R r^4 dr \7
     &= \boxed{\frac25 MR^2}
 \end{align}
+$\bigstar$
+
+%% * * * * * * * *
+%
+%   1.4.5: Perpendicular Axis Theorem
+%
+%% * * * * * * * *
 \subsection{\color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Perpendicular Axis Theorem}
 The perpendicular axis theorem provides an easy way to find moment of inertias perpendicular to two known axes, or for symmetrical shapes. Consider that we are trying to find the moment of inertia along the $z$ axis $I_z$ of an arbitrary object. This moment of inertia is
 \begin{equation*}
@@ -966,8 +1132,27 @@ The perpendicular axis theorem provides an easy way to find moment of inertias p
 
 \clearpage
 
+%% * * * * * * * * * * * * * * * * 
+%
+%   1.5: Gravitation
+%
+%   Includes: 
+%
+%   Gravitational Potential Energy
+%   Energy and Angular Momentum in Elliptical Orbits
+%   Kepler's Second Law
+%   Kepler's Third Law
+%   Newton's Shell Theorem
+%
+%% * * * * * * * * * * * * * * * * 
+
 \section{Gravitation}
-%GPE
+
+%% * * * * * * * *
+%
+%   1.5.1: Gravitational Potential Energy
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Gravitational Potential Energy}
 \color{OrangeRed} $\blacktriangleright$ \color{black} The following formula for the gravitational potential of a system of two bodies is required for AP Physics 1, but the derivation is not required.
 \begin{equation}
@@ -988,8 +1173,25 @@ The perpendicular axis theorem provides an easy way to find moment of inertias p
     U(R) &= \left[-\frac{Gm_1m_2}{r}\right]_{\infty}^{R} \7
     &= -\frac{Gm_1m_2}{R}
 \end{align}
+\noindent which is the general form for gravitational potential energy. Now consider a mass $m$ being raised a height $h$ off the surface of a planet with radius $R_E$ and mass $M$ such that $h << R_E$. Using the above equation, its change in gravitational potential energy is 
+\begin{align*}
+    \Delta U &= -\frac{GMm}{R_E} - \left(-\frac{GMm}{R_E+h}\right) \\
+    &= GMm\left(\frac{1}{R_E + h} - \frac{1}{R_E}\right) \\
+    &= GMm\left(\frac{R_E - (R_E + h)}{R_E(R_E + h)}\right) \\
+    &= GMm\left(\frac{h/R_E^2}{1+ h/R_E}\right).
+\end{align*}
+\noindent Since $h<<R_E$, the expression simply reduces to
+\begin{align}
+    \Delta U &= \frac{GMm}{R_E^2}h \7
+    &= mgh
+\end{align}
+\noindent which is the approximation used for small displacements near the surface of a planet $\bigstar$
 
-%E,L for elliptical orbits
+%% * * * * * * * *
+%
+%   1.5.2: Energy and Angular Momentum for Elliptical Orbits
+%
+%% * * * * * * * *
 \subsection{\color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Energy and Angular Momentum in Elliptical Orbits}
 In orbits, there are two important quantities that are conserved: energy and angular momentum. Since both of these quantities depend on the position of the satellite, by writing the quantities in terms of properties of the orbit, we can use their conservation to solve for the shape of the orbit. Before we begin, it would be helpful to review the properties of ellipses in \ref{A.2.2}, because the following derivations will use them extensively.
 
@@ -1029,7 +1231,11 @@ In orbits, there are two important quantities that are conserved: energy and ang
 \end{align}
 \noindent Using these forms of energy and angular momentum can help greatly in solving for the shape of orbits $\bigstar$
 
-% Kepler's Second Law
+%% * * * * * * * *
+%
+%   1.5.3:Kepler's Second Law
+%
+%% * * * * * * * *
 \subsection{\color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Kepler's Second Law}
 Kepler's second law states that the area swept out by a satellite for any duration of time in its orbit is constant. Before I provide a derivation for it, it is important to note that all of Kepler's laws were discovered empirically by Johannes Kepler about ninety years before Newton published his law of universal gravitation. Thus, the following is more of a way to mathematically show that Kepler was correct in his laws, as opposed to a derivation which Kepler himself followed. 
 
@@ -1070,7 +1276,11 @@ Kepler's second law states that the area swept out by a satellite for any durati
 \end{equation}
 \noindent which is a constant rate since $L$ is a conserved quantity $\bigstar$
 
-%Kepler's Third Law
+%% * * * * * * * *
+%
+%   1.5.3: Kepler's Third Law
+%
+%% * * * * * * * *
 \subsection{\color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Kepler's Third Law} 
 Kepler's third law relates the period of a satellite's orbit to the semimajor axis of the orbit. To derive it, recall the statement of Kepler's second law, namely that the rate of change of area swept out in an orbit is constant with respect to time. Thus, 
 \begin{equation}
@@ -1088,7 +1298,11 @@ Kepler's third law relates the period of a satellite's orbit to the semimajor ax
 \end{align}
 $\bigstar$
 
-% Shell Theorem
+%% * * * * * * * *
+%
+%   1.5.4: Shell Theorem
+%
+%% * * * * * * * *
 \subsection{\color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Shell Theorem}
 Newton's law of universal gravitation provides an easy way to calculate the gravitational force between two point-like particles, but not for continuous bodies. Newton's Shell Theorem provides a way to calculate the gravitational field emanating from a spherical shell or solid sphere by integrating over small point-like masses, solving the issue of not knowing the gravitational field instated by continuous bodies. \\
 \\
@@ -1226,8 +1440,29 @@ Newton's law of universal gravitation provides an easy way to calculate the grav
 \noindent To summarize, the gravitational field inside a spherical shell is zero, the gravitational field outside of solid spheres and spherical shells can be calculated by treating the sphere as a mass located at the center of the sphere $\bigstar$
 
 \clearpage
+
+%% * * * * * * * * * * * * * * * * 
+%
+%   1.6: Oscillations
+%
+%   Includes: 
+%
+%   Simple Harmonic Motion
+%   Period of a Spring Oscillator
+%   Period of a Simple Pendulum
+%   Damped OScillations
+%   Q-Factor
+%   Driven OScillations
+%
+%% * * * * * * * * * * * * * * * * 
+
 \section{Oscillations}
-% SHM
+
+%% * * * * * * * *
+%
+%   1.6.1: Simple Harmonic Motion
+%
+%% * * * * * * * *
 \subsection{\color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Simple Harmonic Motion} \label{1.6.1}
 Consider a particle moving along the x axis located at a position $x(t)$. By definition, simple harmonic motion is any motion in which the position of the particle is constrained by the following differential equation:
 \begin{equation}
@@ -1254,9 +1489,13 @@ Consider a particle moving along the x axis located at a position $x(t)$. By def
 \end{align}
 \noindent The two boxed solutions to the differential equation are most commonly used, since they represent sinusoidal motion. Let us analyze each of them. In the first one (eq. 1.79), setting time to $t=0$ gives $x(0) = C$, meaning that the constant $C$ represents the initial position of the particle. If we take a derivative of the equation, then set $t=0$, we have $\dot{x}(0) = \omeg D$, meaning that the constant $D$ is related to the initial velocity of the particle. Thus, if we know the initial position and velocity of the particle, we should use 1.79 to represent the motion of the particle. 
 
-\noindent Looking at eq. 1.80, we see that the maximum value of the function is $E$. We call this value the amplitude of the motion\footnote{As a side note, $E = \sqrt{C^2 + D^2}$, which you should try to verify using addition of sinusoids and energy}. Setting $t=0$ in eq. 1.80 gives $x(0) = E\cos \phi$, meaning that $\phi$ has some relation to the starting position of the particle. We call this value the phase of the motion. Thus, we should use this form when we want to solve for the general properties of an oscillation\footnote{Notice how we assigned physical meaning to the constants $C, D, E,$ and $\phi$, but not to $A$ and $B$. Why? Because $A$ and $B$ could be complex numbers and have no physical meaning} $\bigstar$
+\noindent Looking at eq. 1.80, we see that the maximum value of the function is $E$. We call this value the amplitude of the motion\footnote{As a side note, $E = \sqrt{C^2 + D^2}$, which you should try to verify using addition of sinusoids and energy}. Setting $t=0$ in eq. 1.80 gives $x(0) = E\cos \phi$, meaning that $\phi$ has some relation to the starting position of the particle. We call this value the phase of the motion. Thus, we should use this form when we want to solve for the general properties of an oscillation\footnote{Notice how we assigned physical meaning to the constants $C, D, E,$ and $\phi$, but not to $A$ and $B$. Why? Because $A$ and $B$ could be complex numbers and have no physical meaning} $\bigstar$ 
 
-% Spring Oscillator
+%% * * * * * * * *
+%
+%   1.6.2: Period of a Spring Oscillator
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Period of a Spring Oscillator}
 The simplest example of simple harmonic motion is a block attached on a spring left to oscillate. If we consider a mass $m$ attached to a spring of spring constant $k$, writing Hooke's Law with Newton's Second Law gives
 \begin{align}
@@ -1270,7 +1509,11 @@ The simplest example of simple harmonic motion is a block attached on a spring l
 \end{align}
 \noindent Note the process taken to reach the result. We found an equation of motion that resembled that of simple harmonic motion. Then, we used the result of the solution to the equation of motion to find the frequency of the oscillation. This technique is extremely important when solving for the frequency of any simple harmonic oscillator $\bigstar$
 
-% Simple Pendulum
+%% * * * * * * * *
+%
+%   1.6.3: Period of a Simple Pendulum
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{PineGreen} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Period of a simple Pendulum}
 A pendulum is a good example of simple harmonic motion, and the periodic motion of its swinging has been used to keep time for centuries. To find the period of its oscillation, first consider a pendulum of length $l$ with a mass $m$ on the end. Furthermore, consider the pendulum at a small angle $\theta$ with respect to the vertical.
 \begin{figure} [h]
@@ -1314,7 +1557,11 @@ A pendulum is a good example of simple harmonic motion, and the periodic motion 
 \end{align}
 $\bigstar$
 
-% Damped Oscillations
+%% * * * * * * * *
+%
+%   1.6.4: Damped Oscillators
+%
+%% * * * * * * * *
 \subsection{\color{Orchid} $\blacktriangleright$ \color{black} Damped Oscillations} \label{1.6.4}
 In section \ref{1.6.1}, we looked at an idealistic version of a simple harmonic oscillator. In real life, though, oscillators will have some kind of resistive force acting on them. Consider a spring oscillator with mass $m$, spring constant $k$, and in a medium that provides a velocity-dependent resistive force of magnitude $F_d = bv$. Writing Newton's Second law for this system gives
 \begin{gather*}
@@ -1354,7 +1601,11 @@ In section \ref{1.6.1}, we looked at an idealistic version of a simple harmonic 
 \end{equation}
 \noindent where $\omeg' = \sqrt{\omeg_0^2 - \frac{1}{\tau^2}}$ and $\phi$ is a constant. This case is known as underdamping, and the oscillator completes full oscillations, with its amplitude decaying to zero at infinity. Note that the frequency of the oscillation in this case doesn't actually change, and only the amplitude does. This is because the resistive force decreases the total energy of the system, which is dependent on the amplitude of the motion, and not the frequency.
 
-% Q-Factor
+%% * * * * * * * *
+%
+%   1.6.5: Q-Factor
+%
+%% * * * * * * * *
 \subsection{\color{Orchid} $\blacktriangleright$ \color{black} Quality Factor}
 The quality factor or Q-Factor of a damped oscillator is a way of measuring how damped the oscillator is. A higher Q factor correlates with a higher quality oscillator (i.e. it isn't damped much) and vice versa. Mathematically, it is defined as follows:
 \begin{equation}
@@ -1374,7 +1625,11 @@ The quality factor or Q-Factor of a damped oscillator is a way of measuring how 
 \end{align}
 $\bigstar$
 
-% Driven Oscillations
+%% * * * * * * * *
+%
+%   1.6.6: Driven Oscillatons
+%
+%% * * * * * * * *
 \subsection{\color{Orchid} $\blacktriangleright$ \color{black} Driven Oscillations}
 In damped oscillators, the oscillation eventually dies out, meaning that an external force needs to be supplied to keep the system moving. This force should act with the movement of the object, so that it always is doing positive work on the object. For underdamped oscillators (the only case we will consider, since the other two damping cases don't oscillate), the frequency of this force should thus be the same as the frequency of the damped oscillator, and it should act in phase with the oscillator. Thus, the force must be in the form of 
 \begin{equation}
@@ -1398,7 +1653,7 @@ In damped oscillators, the oscillation eventually dies out, meaning that an exte
 \noindent Where $A$ and $\phi$ are constants we will solve for later.
 
 \noindent \textbf{Method 2} \\
-\noindent Let the particular solution be the function $P(t)$. Using the reasoning discussed above, the solution to the differential equation will look like
+\noindent Let the particular solution be the function $P(t)$. Using the reasoning discussed above, the most general solution to the differential equation will look like
 \begin{equation*}
     x(t) = A_0e^{-t/\tau}\cos(\omeg' t + \phi_0) + P(t).
 \end{equation*}
@@ -1440,9 +1695,27 @@ In damped oscillators, the oscillation eventually dies out, meaning that an exte
 $\bigstar$
 
 \newpage
+
+%% * * * * * * * * * * * * * * * * 
+%
+%   1.7: Gravitation
+%
+%   Includes: 
+%
+%   Hydrostatic Pressure
+%   Buoyant Force
+%   Continuity Equation
+%   Bernoulii's Equation
+%
+%% * * * * * * * * * * * * * * * * 
+
 \section{Fluids}
 
-% Pressure at a Depth
+%% * * * * * * * *
+%
+%   1.7.1: Period of a Spring Oscillator
+%
+%% * * * * * * * *
 \subsection{\color{OrangeRed} $\blacktriangleright$ \color{Goldenrod} $\blacktriangleright$ \color{Orchid} $\blacktriangleright$ \color{black} Variation of Pressure with Depth} \label{1.7.1}
 For ideal fluids, there is a direct correlation between pressure and depth within the fluid. To see this relation, consider a container of fluid with density $\rho$ in hydrostatic equilibrium in an environment with ambient pressure $P_0$. Since no parts of the fluid are moving (at a macroscopic scale), all parts of the fluid must be in mechanical equilibrium. From this container, consider the cylinder of fluid with cross-sectional area $A$ and height $h$ outlined in the figure.
 \begin{figure}[h]

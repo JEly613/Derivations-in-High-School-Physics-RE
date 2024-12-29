@@ -1,11 +1,54 @@
-\chapter{Thermodynamics}\label{cap5}
+%% * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+%
+%   Derivations in High School Physics Chapter Two: Thermodynamics
+%
+%   Derivation of concepts in thermodynamics relavent to physics competitions
+%   Author: Justin Ely
+%   Email: justinyely@gmail.com
+%   
+%% * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
-\section{\color{Orchid} $\blacktriangleright$ \color{black} Root Mean Square Velocity}
+\chapter{Thermodynamics}\label{Chapter 2}
+
+%% * * * * * * * * * * * * * * * * 
+%
+%   2.1: Molecular Thermodynamics
+%
+%   Includes: 
+%
+%   Maxwell-Boltzman Distribution
+%
+%% * * * * * * * * * * * * * * * * 
+
+\section{Molecular Thermodynamics}
+
+\subsection{\color{Orchid} $\blacktriangleright$ \color{black} Root Mean Square Velocity}
 An ideal gas can be represented by a Gaussian distribution of the velocity of the singular particles in the gas, given by the following distribution:
 \begin{equation}
     f(v) = 4\pi\left[\frac{m}{2\pi k_BT}\right]^{3/2}v^2e^{\frac{-mv^2}{2k_BT}}
 \end{equation}
-\noindent The equation is a bit messy, but it's important to recognize what it means. The function is a \textit{Probability Distribution Function (PDF)}, which is a special type of function that describes the way in which a random system is arranged. First of all, the equation can be broken into two parts like so
+\noindent The equation is a bit messy, but it's important to recognize what it means. 
+\textbf{Mathematical Interlude: PDF's}
+\noindent The function is a \textit{Probability Distribution Function (PDF)}, which is a special type of function that describes the way in which a random system is arranged. At any point on the curve, the function has no real meaning. However, the area under the function (integral) represents the probability of an event occurring ebtween the bounds of integration. Thus, all PDF's have the property
+\begin{equation}
+    \int_{-\infty}^{\infty} \rho(x) dx = 0
+\end{equation}
+\noindent where $\rho(x)$ is an arbitrary PDF. Accordingly, the probability of an event occurring in the interval $(x,x+dx)$ is $\rho(x) dx$. In the case of an ideal gas, since all of the particles are uniformly distributed, the probability of particles having a speed in the range $(v,v+dv)$ is simply the fraction of the total number of particles with that velocity. Or,
+\begin{equation}
+    \frac{dN}{N} = f(v) dv.
+\end{equation}
+\noindent Recall that the expected value (or mean) of a system is defined as
+\begin{equation*}
+    <x> = \sum_i x_i p(x_i)
+\end{equation*}
+\noindent where $<x>$ is the average of $x$, $x_i$ is an arbitrary event, and $p(x_i)$ is the probability of $x_i$ occurring. It follows that for continuous distributions, 
+\begin{equation}
+    <x> = \int_{-\infty}^{\infty} x \rho(x) dx.
+\end{equation}
+\textbf{Back to Thermodynamics}
+\noindent Now, we can 
+
+First of all, the equation can be broken into two parts like so
 \begin{align*}
     f(v) &= 4\pi v^2\left[\frac{m}{2\pi k_BT}\right]^{3/2} \\
     &\cdot e^{\frac{-mv^2}{2k_BT}}

@@ -1,0 +1,55 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Mechanics}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Kinematics}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}\color {OrangeRed} $\blacktriangleright $ \color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} The Kinematics Equations}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}\color {OrangeRed} $\blacktriangleright $ \color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} The Range Equation}{2}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}\color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} The Projectile Trajectory Equation}{3}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Dynamics}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}\color {OrangeRed} $\blacktriangleright $ \color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Extension of $F=ma$}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}\color {OrangeRed} $\blacktriangleright $ \color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} $F=dp/dt$}{4}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}\color {OrangeRed} $\blacktriangleright $ \color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Centripetal Acceleration}{5}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}\color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Accelerated Reference Frames}{6}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}\color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Reduced Mass Approach}{7}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}\color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Rubber bands}{7}{subsection.1.2.6}%
+\contentsline {section}{\numberline {1.3}Energy and Momentum}{9}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}\color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Conservative Forces}{9}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}\color {OrangeRed} $\blacktriangleright $ \color {RoyalBlue} $\blacktriangleright $ \color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Energy Balance \& Conservation of energy}{9}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}\color {OrangeRed} $\blacktriangleright $ \color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Conservation of Momentum}{10}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}\color {OrangeRed} $\blacktriangleright $ \color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Relative Velocity for Elastic Collisions}{11}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}\color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Total Kinetic Energy of Any System}{11}{subsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}\color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Total Kinetic Energy of a Two-Body System}{13}{subsection.1.3.6}%
+\contentsline {subsection}{\numberline {1.3.7}\color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Obtaining Equations of Motion Using Energy}{14}{subsection.1.3.7}%
+\contentsline {section}{\numberline {1.4}Rotation}{15}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}\color {OrangeRed} $\blacktriangleright $ \color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Angular Velocity Is the Same About Any Pivot}{15}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}\color {OrangeRed} $\blacktriangleright $ \color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Kinetic Energy of Rigid Bodies (Rotational KE)}{15}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}\color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Parallel Axis Theorem}{17}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}\color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Common Moment of Inertias}{17}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.5}\color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Perpendicular Axis Theorem}{20}{subsection.1.4.5}%
+\contentsline {section}{\numberline {1.5}Gravitation}{21}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}\color {OrangeRed} $\blacktriangleright $ \color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Gravitational Potential Energy}{21}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}\color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Energy and Angular Momentum in Elliptical Orbits}{22}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}\color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Kepler's Second Law}{23}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}\color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Kepler's Third Law}{24}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}\color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Shell Theorem}{25}{subsection.1.5.5}%
+\contentsline {section}{\numberline {1.6}Oscillations}{28}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}\color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Simple Harmonic Motion}{28}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}\color {OrangeRed} $\blacktriangleright $ \color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Period of a Spring Oscillator}{29}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}\color {OrangeRed} $\blacktriangleright $ \color {PineGreen} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Period of a simple Pendulum}{29}{subsection.1.6.3}%
+\contentsline {subsection}{\numberline {1.6.4}\color {Orchid} $\blacktriangleright $ \color {black} Damped Oscillations}{30}{subsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.6.5}\color {Orchid} $\blacktriangleright $ \color {black} Quality Factor}{31}{subsection.1.6.5}%
+\contentsline {subsection}{\numberline {1.6.6}\color {Orchid} $\blacktriangleright $ \color {black} Driven Oscillations}{32}{subsection.1.6.6}%
+\contentsline {section}{\numberline {1.7}Fluids}{35}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}\color {OrangeRed} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Variation of Pressure with Depth}{35}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}\color {OrangeRed} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Buoyant Force}{35}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}\color {OrangeRed} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Continuity Equation}{36}{subsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.7.4}\color {OrangeRed} $\blacktriangleright $ \color {Goldenrod} $\blacktriangleright $ \color {Orchid} $\blacktriangleright $ \color {black} Bernoulli's Equation}{37}{subsection.1.7.4}%
+\contentsline {chapter}{\numberline {2}Thermodynamics}{39}{chapter.2}%
+\contentsline {section}{\numberline {2.1}\color {Orchid} $\blacktriangleright $ \color {black} Root Mean Square Velocity}{39}{section.2.1}%
+\contentsline {chapter}{\numberline {A}Appendix}{A.1}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Useful Math References}{A.1}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Trigonometric Identities}{A.1}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Taylor Series}{A.2}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}Helpful Proofs}{A.2}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}Arc length and a Straight Line}{A.2}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Properties of Ellipses}{A.3}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}Small Angle Approximations}{A.3}{subsection.A.2.3}%
